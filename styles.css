@@ -1,0 +1,114 @@
+html {
+    height: 100%
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Ruda', sans-serif;
+    background-color: rgb(233, 233, 233);
+
+}
+
+main {
+
+    background-color: rgb(233, 233, 233);
+}
+
+#wrapper {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(233, 233, 233);
+}
+
+.header {
+    display: grid;
+    color: royalblue;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.paragraph {
+    font-size: 20px;
+}
+
+#form-header {
+    display: grid;
+    align-content: center;
+    background-color: rgb(233, 233, 233);
+    margin-left: 140px;
+    margin-top: 200px;
+    width: 500px;
+    height: 150px;
+    
+
+    
+
+}
+
+#login-form {
+    display: grid;
+    background-color: white;
+    border-radius: 5px;
+    width: 400px;
+    height: 350px;
+    margin-top: 126px;
+    margin-right: 140px;
+    margin-bottom: 240px;
+    margin-left: 90px;
+    border: 1px shadow black;
+
+  }
+
+#email {
+    margin: 15px;
+    border-radius: 5px;
+    border: 1px shadow black;
+    height: 50px;
+    width: 363px;
+}
+
+#password {
+    margin: 15px;
+    border-radius: 5px;
+    height: 50px;
+    width: 363px;
+    border: 1px shadow black;
+}
+
+#login-button {
+    margin: auto; 
+    background-color: royalblue;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 364px;
+    height: 46px;
+}
+
+#forgot-password {
+    margin: auto;
+}
+
+.button-style {
+    width: 196px;
+    height: 46px;
+    margin: auto;
+    border-radius: 5px;
+    background-color: rgb(59, 155, 56);
+    color: white;
+}
+
+#branding {
+
+
+}
+  
+
+  footer {
+      background-color: white;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      
+  }
