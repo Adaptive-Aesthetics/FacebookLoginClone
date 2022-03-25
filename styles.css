@@ -13,6 +13,7 @@ body {
 main {
 
     background-color: rgb(233, 233, 233);
+    justify-content: center;
 }
 
 #wrapper {
@@ -101,7 +102,7 @@ main {
 }
 
 #branding {
-
+text-align: center;
 
 }
   
