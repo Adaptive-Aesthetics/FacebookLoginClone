@@ -7,18 +7,15 @@ body {
     margin: 0;
     font-family: 'Ruda', sans-serif;
     background-color: rgb(233, 233, 233);
+    display: grid;
+    grid-template-rows: 1fr auto;
 
-}
-
-main {
-
-    background-color: rgb(233, 233, 233);
-    justify-content: center;
 }
 
 #wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(233, 233, 233);
 }
 
@@ -37,14 +34,7 @@ main {
     display: grid;
     align-content: center;
     background-color: rgb(233, 233, 233);
-    margin-left: 140px;
-    margin-top: 200px;
     width: 500px;
-    height: 150px;
-    
-
-    
-
 }
 
 #login-form {
@@ -52,29 +42,18 @@ main {
     background-color: white;
     border-radius: 5px;
     width: 400px;
-    height: 350px;
-    margin-top: 126px;
-    margin-right: 140px;
-    margin-bottom: 240px;
-    margin-left: 90px;
     border: 1px shadow black;
+    gap: 1rem;
+    padding: 1rem;
 
   }
 
-#email {
-    margin: 15px;
+.form-input {
     border-radius: 5px;
-    border: 1px shadow black;
-    height: 50px;
-    width: 363px;
-}
-
-#password {
-    margin: 15px;
-    border-radius: 5px;
-    height: 50px;
     width: 363px;
     border: 1px shadow black;
+    font-size: 1.3rem;
+    padding: 0.5rem 1rem;
 }
 
 #login-button {
@@ -102,14 +81,14 @@ main {
 }
 
 #branding {
-text-align: center;
+    text-align: center;
+    
 
 }
   
-
-  footer {
+footer {
       background-color: white;
       padding-top: 20px;
-      padding-bottom: 20px;
+      padding-bottom: 50px;
       
   }
